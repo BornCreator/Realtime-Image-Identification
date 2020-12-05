@@ -29,14 +29,28 @@ body{
     padding-top:20px;
 }
 @keyframes header_animation{
-    0%{box-shadow:5px 5px 13px purple,-5px -5px 13px lightskyblue;}
-    25%{box-shadow:-5px 5px 13px purple,5px -5px 13px lightskyblue;}
-    50%{box-shadow:-5px -5px 13px purple,5px 5px 13px lightskyblue;}
-    75%{box-shadow:5px -5px 13px purple,-5px 5px 13px lightskyblue;}
-    100%{box-shadow:5px 5px 13px purple,-5px -5px 13px lightskyblue;}
+    0%{box-shadow:10px 0px 13px purple}
+    25%{box-shadow:0px 10px 13px purple;}
+    50%{box-shadow:-10px 0px 13px purple;}
+    75%{box-shadow:0px -10px 13px purple;}
+    100%{box-shadow:10px 0px 13px purple;}
 }
 .oburacy{
     background-color: brown;
     border-radius:20px;
-    width:30%;
+    width: fit-content;
+}
+#copyright_div{
+    position:fixed;
+    bottom:0px;
+    background-color:aliceblue;
+    color:black;
+    text-align:center;
+    line-height: 3;
+    width:100%;
+    z-index:9999;
+}
+canvas{
+    border:5px gray ridge;
+    box-shadow:5px 5px 13px black;
 }
